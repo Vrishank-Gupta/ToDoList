@@ -102,7 +102,6 @@ public class MainActivity extends AppCompatActivity{
 
     Object readFile()
     {
-        ArrayList<listClass> tasks = new ArrayList<>();
         boolean cont = true;
           try {
               File sdCard = Environment.getExternalStorageDirectory();
@@ -114,7 +113,7 @@ public class MainActivity extends AppCompatActivity{
                   Object t = objIn.readObject();
 
                   if (t != null) {
-                      return (Object) t;
+                      return  t;
                   } else cont = false;
               }
           } catch (Exception e) {

@@ -27,9 +27,6 @@ public class listClass implements Serializable {
     public void setActive(boolean active) {
         this.active = active;
     }
-//
-//    @Override
-//    public String toString() {
-//        return new StringBuffer("Task: ").append(this.task).append(" IsActive:- ").append(this.active).toString();
-//    }
+
+
 }
