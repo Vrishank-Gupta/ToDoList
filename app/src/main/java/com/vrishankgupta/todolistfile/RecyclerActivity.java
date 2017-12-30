@@ -27,7 +27,7 @@ import com.vrishankgupta.todolistfile.Model.CourseAdapter;
 public class RecyclerActivity extends AppCompatActivity {
     public static final String TAG = "ERROR";
 
-    ArrayList<listClass> arr;
+    ArrayList<listClass> arr = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

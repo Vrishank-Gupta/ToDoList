@@ -28,5 +28,8 @@ public class listClass implements Serializable {
         this.active = active;
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
